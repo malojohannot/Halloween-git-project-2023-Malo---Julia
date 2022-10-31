@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+
+  .left {
+    grid-column: 1 ;
+    grid-row: 1;
+    padding: 100px;
+  }
+  .right {
+    grid-column: 2;
+    grid-row: 1;
+    
+  }
+
+  h1 {
+    font-family: creepster, montserrat;
+    font-size: 30pt;
+  }
+
+  p {
+    font-family: open sans  ;
+    font-size: 20pt;
+  }
+
+  a {
+    color : #484747;
+    text-decoration: none;
+    font-size: 17pt;
+    font-family: open sans  ;
+    border: solid 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 40px;
+    
+  }
+
+  a:hover {
+    background-color: #484747;
+    color :white;
+  }
